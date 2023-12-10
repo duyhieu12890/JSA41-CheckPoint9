@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke Process</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container" id="container">
+        <label for="pokemon"><strong>Select Pokemon</strong></label>
+        <select name="pokemon" id="pokemon">
+            <option value="nothing">Please Select</option>
+        </select>
+        <input type="button" value="ok" onclick="getPokemonValue()">
+        <div class="isShow">
+            <div class="disflex">
+                <div class="result">
+                    <img src="" alt="Image not Found" id="img"><br>
+                    <div class="text-result">
+                        <strong>Name:</strong>
+                        <p id="name"></p>
+                        <strong>Type:</strong>
+                        <p id="type"></p>
+                        <strong>Height:</strong>
+                        <p id="height"></p>
+                        <strong>Weight:</strong>
+                        <p id="weight"></p>
+                        <strong>Bio:</strong>
+                        <p id="bio"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="pokeApiProcess.js"></script>
+
+</html>

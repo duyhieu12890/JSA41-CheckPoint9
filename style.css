@@ -1,0 +1,30 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    padding: 2% 10% 0 0;
+}
+
+#img {
+    padding: 2% 10% 0 0;
+    width: min-content;
+    height: min-content;
+}
+
+#name {
+    /* padding: ; */
+}
+
+.isShow {
+    display: none;
+}
+
+.displex {
+    display: flex;
+}
